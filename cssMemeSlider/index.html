@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Birb memes</title>
-  <link rel="icon" type="image/png" href="./img/parrot_84a3k0zp9v6j.svg">
+  <link rel="icon" type="image/png" href="./img/icon.svg">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Genos:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Genos:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -19,49 +19,54 @@
   <main>
     <section class="wrapper">
       <div class="slider">
-        <div class="slider-card-content">
-          <div class="slider-cards">
-            <img class="slider-card-img" src="./img/birb_1.jpg" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_2.jpg" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_3.jpg" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_4.jpg" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_5.jpg" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_6.png" width="450" alt="Photo of the Brooklyn Library">
-            <img class="slider-card-img" src="./img/birb_7.png" width="450" alt="Photo of the Brooklyn Library">
-          </div>
+          <input class="slider-input-btn" id="slide1" name="slide" type="radio" checked="">
+          <input class="slider-input-btn" id="slide2" name="slide" type="radio">
+          <input class="slider-input-btn" id="slide3" name="slide" type="radio">
+          <input class="slider-input-btn" id="slide4" name="slide" type="radio">
+          <input class="slider-input-btn" id="slide5" name="slide" type="radio">
+          <input class="slider-input-btn" id="slide6" name="slide" type="radio">
+          <input class="slider-input-btn" id="slide7" name="slide" type="radio">
+        <div class="slider-cards">
+          <img class="slider-card-img" src="./img/birb_1.jpg" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_2.jpg" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_3.png" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_4.png" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_5.jpg" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_6.png" alt="Photo of the Brooklyn Library">
+          <img class="slider-card-img" src="./img/birb_7.png" alt="Photo of the Brooklyn Library">
         </div>
         <div class="slider-bottom">
-          <div>
-            <h3 class="slider-cards-title">Cards title1</h3>
-            <h3 class="slider-cards-title">Cards title2</h3>
-            <h3 class="slider-cards-title">Cards title3</h3>
-            <h3 class="slider-cards-title">Cards title4</h3>
-            <h3 class="slider-cards-title">Cards title5</h3>
-            <h3 class="slider-cards-title">Cards title6</h3>
-            <h3 class="slider-cards-title">Cards title7</h3>
+          <div class="slider-bottom-title">
+            <h3 class="slider-cards-title">Extremely curious</h3>
+            <h3 class="slider-cards-title">Work from home</h3>
+            <h3 class="slider-cards-title">Me! Only me</h3>
+            <h3 class="slider-cards-title">My life lately</h3>
+            <h3 class="slider-cards-title">Choose your fighter</h3>
+            <h3 class="slider-cards-title">AAAAAAAAAAAAA</h3>
+            <h3 class="slider-cards-title">How's progress?</h3>
           </div>
           <div class="pagination">
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
-            <div class="pagination-slide">
-              <button class="pagination-slide-dot"></button>
-            </div>
+            <label class="pagination-slide" for="slide1">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide2">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide3">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide4">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide5">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide6">
+              <span class="pagination-slide-dot"></span>
+            </label>
+            <label class="pagination-slide" for="slide7">
+              <span class="pagination-slide-dot"></span>
+            </label>
           </div>
         </div>
       </div>
