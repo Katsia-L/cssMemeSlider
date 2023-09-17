@@ -38,7 +38,7 @@ header {
 }
 
 main {
-    background: url(./img/background.png);
+    background-image: url(./img/background.png);
     background-size: 100%;
     padding: 3rem;
 }
@@ -118,6 +118,7 @@ main {
 .pagination-slide-dot {
     width: 1rem;
     height: 1rem;
+    border: 0.1rem rgb(127, 255, 150);
     background-color: var(--color-light);
     transition: 1s;
 }
@@ -131,6 +132,33 @@ main {
     border: 0.1rem solid #ff5c5c;
 
 }
+
+
+input:nth-of-type(1):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot1 {
+    background: rgb(17, 90, 30);
+}
+input:nth-of-type(2):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot2 {
+    background: rgb(17, 90, 30);
+}
+input:nth-of-type(3):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot3 {
+    background: rgb(17, 90, 30);
+}
+input:nth-of-type(4):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot4 {
+    background: rgb(17, 90, 30);
+}
+
+input:nth-of-type(5):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot5 {
+    background: rgb(17, 90, 30);
+}
+input:nth-of-type(6):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot6 {
+    background: rgb(17, 90, 30);
+}
+input:nth-of-type(7):checked ~ .slider-bottom:nth-last-of-type(1) .pagination-slide-dot7 {
+    background: rgb(17, 90, 30);
+}
+
+
+
 
 footer {
     background-color: var(--color-dark);
@@ -193,7 +221,6 @@ footer div {
 .slider-input-btn:nth-child(7):checked ~ .slider-bottom .slider-cards-title {
     transform: translateX(-900%);
 }
-
 
 @media (max-width: 1024px) {
 
